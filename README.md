@@ -1,7 +1,7 @@
 # SLEEP-HEALTH-AND-LIFESTYLE-ANALYSIS
 DSML Entri Capstone Project
 
-1.# Overview of Problem Statement:
+### 1. Overview of Problem Statement:
 
 According to the National Institutes of Health (NIH), quality sleep is as important to good health as diet and exercise. Regularly missing adequate quality sleep can raise the risk of a range of health issues, such as heart disease, stroke, obesity and dementia. The NIH recommends seven to nine hours of sleep a night for the average person.Sleep health refers to the quality, duration, timing, and regularity of sleep, as well as the behaviors and habits that promote optimal sleep. It encompasses both the physiological aspects of sleep and the psychological and environmental factors that influence sleep patterns. It is essential for one's overall well-being and is associated with numerous physical, cognitive, and emotional benefits.When sleep health is prioritized, it can lead to improved mood, cognitive function, immune function, cardiovascular health, and overall quality of life. Conversely, chronic sleep deprivation or poor sleep quality can contribute to a range of negative outcomes, including increased risk of obesity, diabetes, cardiovascular disease, depression, and impaired cognitive performance. Therefore, adopting habits and behaviors that support good sleep health is crucial for optimal functioning and well-being.
 
