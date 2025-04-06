@@ -93,11 +93,7 @@ Sleep Disorder-Target
 
   3.Multivariate Analysis
   * pairplot
-        
- Insights:
-  * After encoding the number of features increased  to 45.
-  * Using all these 45 features for model building is not advisable, so went for feature selection.
-
+   
 ### 7. Feature Encoding
    
  Steps Taken: 
@@ -123,7 +119,7 @@ Sleep Disorder-Target
 ### 10. Feature Scaling
   * Standardized numerical features using StandardScaler.
   * Ensured consistent scaling across features to prevent magnitude bias.
-  * Used X_tain_scaled and X_test _scaled for 
+
 
 ### 11.Model Building
 
@@ -157,7 +153,7 @@ Sleep Disorder-Target
     *   Decision Tree Classifier
     *   Gaussian Naïve Bayes
       
-    * Found that Random Forest Classifier is the best-performing model, achieving  the highest accuracy after hyper parameter tuning.
+  * Found that Random Forest Classifier is the best-performing model, achieving  the highest accuracy after hyper parameter tuning.
 
  Steps Taken:Random Forest classifier Optimization 
   *Used RandomizedSearchCV for hyperparameter tuning to reduce execution time.
