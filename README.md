@@ -161,9 +161,12 @@ Sleep Disorder-Target
   * Found that Random Forest Classifier is the best-performing model, achieving  the highest accuracy after hyper parameter tuning.
 
  Steps Taken:Random Forest classifier Optimization 
+ 
   *Used RandomizedSearchCV for hyperparameter tuning to reduce execution time.
+  
   *Best Parameters Found:n_estimators= 200, min_samples_split= 5, max_depth= 15.
-  *Best Accuracy: 0.9716666666666667
+  
+  *Best Accuracy: 0.971
   
  ### 14. Save the Model
   * save the model as "The_Best_Model.joblib".
