@@ -69,6 +69,7 @@ Sleep Disorder-Target
   * Checked for skewness of the data after clipping. The skewness values were within the range so didn't go for any transformation techniques.
     
  Insights:
+ 
   * Outlier detection helped in identifying extreme values that could negatively affect model performance.
   * Clipping ensured that the dataset maintained its integrity while avoiding overfitting to extreme values.
 
@@ -77,28 +78,32 @@ Sleep Disorder-Target
    
    1.Univariate Analysis
    
-  * Analysed numerical variables using Histplot
+  * Analysed numerical variables using Histplot.
   * count plot for categorical column-Sleep Disorder.
-  * count plot for categorical column-BMI Category
+  * count plot for categorical column-BMI Category.
     
    2.Bivariate Analysis
    
   * Correlation Heatmap for checking correlation between the features.
-  * Scatter plot-Age vs Sleep Duration
-  * Scatter Plot- Age vs Sleep Duration
-  * Bar chart of Heart Rate vs Stress Level
-  * Bar chart of Stress Level vs Sleep Duration
-  * violin plot of BMI Category vs Stress Level
-  * Horizontal bar chart of Occupation vs Stress Level
+  * Scatter plot-Age vs Sleep Duration.
+  * Scatter Plot- Age vs Sleep Duration.
+  * Bar chart of Heart Rate vs Stress Level.
+  * Bar chart of Stress Level vs Sleep Duration.
+  * violin plot of BMI Category vs Stress Level.
+  * Horizontal bar chart of Occupation vs Stress Level.
 
   3.Multivariate Analysis
+  
   * pairplot
    
 ### 7. Feature Encoding
    
- Steps Taken: 
+ Steps Taken:
+ 
   * Encoded categorical variables (e.g: "Gender","Occupation","BMI Category", "Blood Pressure") using one-hot encoding.
+    
   Insights:
+
   * After encoding the number of features increased  to 45.
   * Using all these 45 features for model building is not advisable, so went for feature selection.
 
