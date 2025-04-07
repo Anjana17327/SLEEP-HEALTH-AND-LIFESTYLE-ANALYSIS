@@ -16,6 +16,10 @@ Fitness plays a significant role in sleep health, as regular physical activity h
 ### 3.Data Description:
 Source: The dataset can be downloaded from the link :(https://www.kaggle.com/code/giulianoverdone/up-to-date-sleep-health-and-lifestyle-analysis?select=Sleep_Data_Sampled.csv
 
+Dataset Overview:
+
+The Sleep Health and Lifestyle Dataset comprises 15000 rows and 13 columns, covering a wide range of variables related to sleep and daily habits. It includes details such as gender, age, occupation, sleep duration, quality of sleep, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps, and the presence or absence of sleep disorders.
+
 Recognizing Variables in the Dataset
  * Person ID: An identifier for each individual.
  * Sex: The sex of the person (Male/Female).
