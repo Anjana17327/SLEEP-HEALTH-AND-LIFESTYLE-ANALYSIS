@@ -138,11 +138,7 @@ Sleep Disorder-Target
   4.   Decision Tree Classifier
   5.   Random Forest Classifier
   6.   Gradient Boosting Classifier
-
- Steps Taken:
- * Used X_tain_scaled and X_test_scaled for the models Support Vector Machine(SVC-Support Vector Classifier),KNeighbors Classifier and  Naive Bayes.
- * Used X_tain and X_test for the tree based models Decision Tree Classifier,Random Forest Classifier and Gradient Boosting Classifier.
-   
+ 
     
 ### 12.Model Evaluation
 
