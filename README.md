@@ -118,19 +118,26 @@ Sleep Disorder-Target
    * Feature Selection Using Random Forest Random Forest is an ensemble learning method.
    * Feature importance scores from  Random Forest Classifier helped to select 12 most important features by setting the threshold as 0.02.
 
-  
-### 9.Split Data into Training and Testing Sets
+
+### 9. Feature Scaling
+
+  * Standardized numerical features using StandardScaler.
+  * Ensured consistent scaling across features to prevent magnitude bias.
+
+    
+### 10.PCA (Dimensionality Reduction)
+
+  * PCA transforms  high-dimensional data (with possibly correlated features) into a new set of fewer, uncorrelated features called principal components, while keeping as much information (variance) as possible.
+
+     
+### 11.Split Data into Training and Testing Sets
+
   * Split the dataset into: X_selected → Features y → Target variable (Sleep Disorder)
   * Split the dataset into 80% training and 20% testing data.
   * Ensured stratified splitting to maintain class distribution.
 
 
-### 10. Feature Scaling
-  * Standardized numerical features using StandardScaler.
-  * Ensured consistent scaling across features to prevent magnitude bias.
-
-
-### 11.Model Building
+### 12.Model Building
 
   1.   Support Vector Machine(SVC-Support Vector Classifier)
   2.   KNeighbors Classifier
@@ -140,7 +147,7 @@ Sleep Disorder-Target
   6.   Gradient Boosting Classifier
  
     
-### 12.Model Evaluation
+### 13.Model Evaluation
 
  1.Evaluated models based on:
   * Accuracy: Measures overall correctness.
@@ -152,7 +159,7 @@ Sleep Disorder-Target
   * Found that Random Forest Classifier is the best-performing model, achieving  the highest accuracy, precision, and recall scores.
 
 
-### 13. Hyperparameter Tuning & Optimization
+### 14. Hyperparameter Tuning & Optimization
     1. Hyperparameter Tuning applied on:
     *   Random Forest Classifier
     *   Decision Tree Classifier
@@ -166,13 +173,13 @@ Sleep Disorder-Target
   
   *Best Parameters Found:n_estimators= 200, min_samples_split= 5, max_depth= 15.
   
-  *Best Accuracy: 0.971
+  *Best Accuracy: 0.97
   
- ### 14. Save the Model
+ ### 15. Save the Model
   * save the model as "The_Best_Model.joblib".
  
 
- ### 15.Pipeline For ML Model
+ ### 16.Pipeline For ML Model
  
   * Created a scikit-learn pipeline combining:
   * SimpleImputer for missing values.
@@ -182,18 +189,18 @@ Sleep Disorder-Target
   * Saved the pipeline as  'Sleep_Health_Analysis_pipeline.joblib file for future predictions.
 
 
- ### 16. Test with Unseen Data
+ ### 17. Test with Unseen Data
  *  Applied the model to unseen data samples.
 
 
- ### 17.Conclusion :
+ ### 18.Conclusion :
 
 * The Random Forest Classifier achieved 97% accuracy, the highest among all six models. This demonstrates its strong ability to predict Sleep Disorders based on various features.
 * When tested with unseen data, the Random Forest Classifier successfully predicted all three target classes: "Healthy," "Insomnia," and "Sleep Apnea." This indicates that the model effectively identifies patterns and distinguishes between different sleep conditions.
 * Hyperparameter tuning had no significant impact on the performance of the Random Forest Classifier and Decision Tree Classifier. These models remained the top performers, each achieving over 96% accuracy.
-* Gaussian Naïve Bayes showed a dramatic improvement after hyperparameter tuning, with accuracy increasing from 52% to 90%, highlighting the importance of tuning for this model.
+* Gaussian Naïve Bayes showed a dramatic improvement after hyperparameter tuning, with accuracy increasing from 88.7% to 89.9%, highlighting the importance of tuning for this model.
 
- ### 18.Future Work
+ ### 19.Future Work
 *  Model Updates: Periodically update the model with new data to ensure it adapts to changing trends and behaviors over time.
 *  Imbalanced Data Handling: Implement resampling techniques, like oversampling or undersampling, to address any class imbalances in the dataset, ensuring the model is not biased.
 *  Feature Engineering: Consider adding more features or engineering existing ones to capture more nuanced patterns that could enhance the model's predictive power.
